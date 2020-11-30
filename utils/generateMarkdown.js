@@ -27,6 +27,8 @@ ${data.installation}
 
 ## Usage
 
+${data.usage}
+
 ------
 
 ## License
