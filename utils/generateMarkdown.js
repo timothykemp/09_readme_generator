@@ -75,8 +75,6 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
 
------
-
   ${licenseBadge}
 
 -----
@@ -132,6 +130,8 @@ ${data.tests}
 ------
 
 ## Questions
+
+If you have any questions about this project, please free to contact me through my [Github profile](https://github.com/${data.username}) or via [email](mailto:${data.email}).
 
   `;
 }
