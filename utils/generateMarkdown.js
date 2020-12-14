@@ -77,8 +77,6 @@ function generateMarkdown(data) {
 
   ${licenseBadge}
 
------
-
 ## Description
 
 ${data.description}
@@ -94,19 +92,19 @@ ${data.description}
 * [Tests](#tests)
 * [Questions](#questions)
 
-------
+-----
 
 ## Installation
 
 ${data.installation}
 
-------
+-----
 
 ## Usage
 
 ${data.usage}
 
-------
+-----
 
 ## License
 
@@ -115,19 +113,19 @@ ${data.license === "None"
       : `This project is licensed under the terms of the ${data.license} license.`
     }
 
-------
+-----
 
 ## Contributing
 
 ${data.contributing}
 
-------
+-----
 
 ## Tests
 
 ${data.tests}
 
-------
+-----
 
 ## Questions
 

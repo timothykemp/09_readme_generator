@@ -1,6 +1,4 @@
-# My project
-
------
+# Test Title
 
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
@@ -8,7 +6,7 @@
 
 ## Description
 
-It is a very great project
+Test descirpti
 
 -----
 
@@ -25,13 +23,13 @@ It is a very great project
 
 ## Installation
 
-With way too many steps
+Lots
 
 ------
 
 ## Usage
 
-You use it just like a calculator!
+A lot more
 
 ------
 
@@ -43,18 +41,18 @@ This project is licensed under the terms of the MIT license.
 
 ## Contributing
 
-They can contact me using the links below!
+They can't
 
 ------
 
 ## Tests
 
-They are welcome to use the following tests:
+don't do it
 
 ------
 
 ## Questions
 
-If you have any questions about this project, please free to contact me through my [Github profile](https://github.com/timothykemp) or via [email](timothymichaelkemp@gmail.com).
+If you have any questions about this project, please free to contact me through my [Github profile](https://github.com/timothykemp) or via [email](mailto:timothymichaelkemp@gmail.com).
 
   
