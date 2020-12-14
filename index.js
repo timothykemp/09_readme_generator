@@ -41,9 +41,14 @@ const questions = [
         message: 'How can others test this project?'
     },
     {
-        name: 'email',
+        name: 'username',
         type: 'input',
         message: 'What is your Github username?'
+    },
+    {
+        name: 'email',
+        type: 'input',
+        message: 'What is your email address?'
     },
 ];
 

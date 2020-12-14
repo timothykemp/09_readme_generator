@@ -73,10 +73,13 @@ function generateMarkdown(data) {
       break;
   }
 
-
   return `# ${data.title}
 
+-----
+
   ${licenseBadge}
+
+-----
 
 ## Description
 
