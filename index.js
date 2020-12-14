@@ -26,19 +26,36 @@ const questions = [
     },
     {
         name: 'license',
-        type: 'choices',
-        message: 'How should this project be used?'
+        type: 'list',
+        message: 'Which license applies to this project?',
+        choices: ['MIT', 'None']
+    },
+    {
+        name: 'contributing',
+        type: 'input',
+        message: 'How can other developers contribute to this project?'
+    },
+    {
+        name: 'tests',
+        type: 'input',
+        message: 'How can others test this project?'
+    },
+    {
+        name: 'email',
+        type: 'input',
+        message: 'What is your Github username?'
     },
 ];
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then((answers) => {
-        // console.log('answers :>> ', answers);
-        const markdown = generateMarkdown(answers);
-        // console.log('markdown :>> ', markdown);
-        writeToFile('generated_README.md', markdown);
-    })
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            const markdown = generateMarkdown(answers);
+
+            writeToFile('generated_README.md', markdown);
+        })
 }
 
 // function to write README file
