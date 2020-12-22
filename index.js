@@ -32,11 +32,11 @@ const questions = [
         choices: [
             'Apache License 2.0',
             'GNU General Public License v3.0',
-            'MIT',
+            'MIT License',
             "BSD 2-Clause 'Simplified' License",
             "BSD 3-Clause 'New' or 'Revised' License",
             'Boost Software License 1.0',
-            'Creative Commons Zero v1.0 Universal',
+            'Creative Commons Zero v1.0 Universal License',
             'Eclipse Public License 2.0',
             'GNU Affero General Public License v3.0',
             'GNU General Public License v2.0',
@@ -76,7 +76,7 @@ const init = () => {
 
             writeToFile('generated_README.md', markdown);
         })
-}
+};
 
 // Function to write README file
 const writeToFile = (fileName, data) => {
@@ -84,7 +84,7 @@ const writeToFile = (fileName, data) => {
         if (err) return console.log(err);
         console.log('File written successfully!');
     })
-}
+};
 
 // Function call to initialize program
 init();
