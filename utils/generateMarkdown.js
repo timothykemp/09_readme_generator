@@ -1,6 +1,8 @@
 // Function to generate markdown for README
 function generateMarkdown(data) {
   let licenseBadge;
+
+  // Use the licenseBadge info equal to the license selected by the user
   switch (data.license) {
 
     case "Apache License 2.0":
@@ -73,6 +75,7 @@ function generateMarkdown(data) {
       break;
   }
 
+  // Build README using the user's responses to the questions
   return `# ${data.title}
 
   ${licenseBadge}
@@ -110,7 +113,7 @@ ${data.usage}
 
 ${data.license === "None"
       ? "This project does not have a license."
-      : `This project is licensed under the terms of the ${data.license} license.`
+      : `This project is licensed under the terms of the ${data.license} license. Please click the badge at the top of this README for more information regarding the details of the license.`
     }
 
 -----
@@ -130,8 +133,8 @@ ${data.tests}
 ## Questions
 
 If you have any questions about this project, please free to contact me through my [Github profile](https://github.com/${data.username}) or via [email](mailto:${data.email}).
-
   `;
 }
 
+// Export output for use in the index.js file
 module.exports = generateMarkdown;

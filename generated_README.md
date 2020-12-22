@@ -1,10 +1,10 @@
-# 11_note_taker
+# test
 
   
 
 ## Description
 
-This is an application that can be used to write, save, and delete notes. This application uses an express backend to save and retrieve data from a JSON file.
+test
 
 -----
 
@@ -21,36 +21,35 @@ This is an application that can be used to write, save, and delete notes. This a
 
 ## Installation
 
-Run the command `node index.js` in the terminal.
+test
 
 -----
 
 ## Usage
 
-1. Add a title for your note. 2. Add text for the note body. 3. Hit the save button to save the note in the list to the left. 4. Select notes in the list on the left to view at any time. 5. Hit the trash button on any note to delete it from the list.
+test
 
 -----
 
 ## License
 
-This project does not have a license.
+This project is licensed under the terms of the GNU General Public License v3.0 license.
 
 -----
 
 ## Contributing
 
-This project is a homework assignment, and it has no need for additional contributions.
+test
 
 -----
 
 ## Tests
 
-There are no tests built for this project.
+test
 
 -----
 
 ## Questions
 
-If you have any questions about this project, please free to contact me through my [Github profile](https://github.com/timothykemp) or via [email](mailto:timothymichaelkemp@gmail.com).
-
+If you have any questions about this project, please free to contact me through my [Github profile](https://github.com/test) or via [email](mailto:test).
   

@@ -29,7 +29,21 @@ const questions = [
         name: 'license',
         type: 'list',
         message: 'Which license applies to this project?',
-        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT', "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense', 'None']
+        choices: [
+            'Apache License 2.0',
+            'GNU General Public License v3.0',
+            'MIT',
+            "BSD 2-Clause 'Simplified' License",
+            "BSD 3-Clause 'New' or 'Revised' License",
+            'Boost Software License 1.0',
+            'Creative Commons Zero v1.0 Universal',
+            'Eclipse Public License 2.0',
+            'GNU Affero General Public License v3.0',
+            'GNU General Public License v2.0',
+            'GNU Lesser General Public License v2.1',
+            'Mozilla Public License 2.0',
+            'The Unlicense',
+            'None']
     },
     {
         name: 'contributing',
@@ -54,7 +68,7 @@ const questions = [
 ];
 
 // Function to initialize program
-function init() {
+const init = () => {
     inquirer
         .prompt(questions)
         .then((answers) => {
@@ -65,7 +79,7 @@ function init() {
 }
 
 // Function to write README file
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
     fs.writeFile(fileName, data, (err) => {
         if (err) return console.log(err);
         console.log('File written successfully!');
