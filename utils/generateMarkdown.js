@@ -1,4 +1,4 @@
-// function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   let licenseBadge;
   switch (data.license) {

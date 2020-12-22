@@ -1,12 +1,10 @@
-# Test Title
+# 11_note_taker
 
-  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
------
+  
 
 ## Description
 
-Test descirpti
+This is an application that can be used to write, save, and delete notes. This application uses an express backend to save and retrieve data from a JSON file.
 
 -----
 
@@ -19,37 +17,37 @@ Test descirpti
 * [Tests](#tests)
 * [Questions](#questions)
 
-------
+-----
 
 ## Installation
 
-Lots
+Run the command `node index.js` in the terminal.
 
-------
+-----
 
 ## Usage
 
-A lot more
+1. Add a title for your note. 2. Add text for the note body. 3. Hit the save button to save the note in the list to the left. 4. Select notes in the list on the left to view at any time. 5. Hit the trash button on any note to delete it from the list.
 
-------
+-----
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project does not have a license.
 
-------
+-----
 
 ## Contributing
 
-They can't
+This project is a homework assignment, and it has no need for additional contributions.
 
-------
+-----
 
 ## Tests
 
-don't do it
+There are no tests built for this project.
 
-------
+-----
 
 ## Questions
 

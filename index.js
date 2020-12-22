@@ -1,8 +1,9 @@
+// Required modules
 const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// array of questions for user
+// Array of questions for user
 const questions = [
     {
         name: 'title',
@@ -52,7 +53,7 @@ const questions = [
     },
 ];
 
-// function to initialize program
+// Function to initialize program
 function init() {
     inquirer
         .prompt(questions)
@@ -63,7 +64,7 @@ function init() {
         })
 }
 
-// function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) return console.log(err);
@@ -71,5 +72,5 @@ function writeToFile(fileName, data) {
     })
 }
 
-// function call to initialize program
+// Function call to initialize program
 init();
